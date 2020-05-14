@@ -37,7 +37,7 @@ def start_game():
     time.sleep(3)
     anything('You have to get to The Comic Book Store within 60 minutes \nI might leave school early...')
     time.sleep(2)
-    response = input('\nShould I sneak out the front, back way or do not leave school early at all[F/B/D]?>')
+    response = input('\nShould You sneak out the front, back way or do not leave school early at all[F/B/D]?>')
     if response.lower() == 'f':
         time_lost += 30
         anything('You got caught! Detention after school! \nYou lost {} minutes due to detention.'.format(time_lost))
